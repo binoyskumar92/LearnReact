@@ -18,7 +18,7 @@ class App extends Component {
 
   render(){
     return (
-    <div>
+    <div className="panel panel-default">
     <SearchBar/>
     <VideoList videos={this.state.videos}/>
     </div>);
